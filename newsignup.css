@@ -82,17 +82,17 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
     background-image: -webkit-linear-gradient(left, #05386B, #103D6B, #05386B);
-    background-image: -moz-linear-gradient(left, #05386B, #103D6B, #05386B;
+    background-image: -moz-linear-gradient(left, #05386B, #103D6B, #05386B);
     background-image: -ms-linear-gradient(left, #05386B, #103D6B, #05386B);
     background-image: -o-linear-gradient(left, #05386B, #103D6B, #05386B);
 }
-/*
+
 hr.sexy_line {
 border: 0;
 height: 3px;
 background: #05386B;
 background-image: -webkit-linear-gradient(left, #22FFAD, #05386B, #22FFAD);
-background-image: -moz-linear-gradient(left, #22FFAD, #05386B, #22FFAD;
+background-image: -moz-linear-gradient(left, #22FFAD, #05386B, #22FFAD);
 background-image: -ms-linear-gradient(left, #22FFAD, #05386B, #22FFAD);
 background-image: -o-linear-gradient(left, #22FFAD, #05386B, #22FFAD);
 }
