@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Quest - Sign Up
+        </title>
+    </head>
+    <style>
+        html {height: 100%;}
+        body {
+            height: 100%;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .button {
+            background-color: #22FFAD;
+            border: solid;
+            color: black;
+            padding: 15px 25px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: monospace;
+        }
+        .button:hover {
+            background-color: black;
+            color: #22FFAD;
+        }
+
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #22FFAD;
+            border: solid;
+            color: black;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: black;
+            color: #22FFAD;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #22FFAD;
+            padding: 20px;
+        }
+    </style>
+    <body style="background-image: linear-gradient(#22FFAD 75%, black);">
+        <h1 style="font-family: monospace; font-weight: bold; font-size: 50px; text-align: center;">
+            Sign Up
+        </h1>
+        <div>
+            <form action="signUp.php" method="POST">
+              <label for="uname" style="font-family: monospace;">Username</label>
+              <input type="text" id="uname" name="username" placeholder="Username..">
+          
+              <label for="lpword" style="font-family: monospace;">Password</label>
+              <input type="text" id="pword" name="password" placeholder="Password..">
+
+              <label for="email" style="font-family: monospace;">Email</label>
+              <input type="text" id="email" name="email" placeholder="Email..">
+            
+              <input type="submit" value="Sign Up">
+            </form>
+        </div>
+
+    </body>
+</html>
