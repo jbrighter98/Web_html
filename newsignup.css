@@ -73,7 +73,7 @@ nav ul li a {
   text-decoration: none; /*remove underline of navigation links*/
 }
 
-input[type=text], select {
+input {
     width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
