@@ -1,4 +1,3 @@
-# Quest
-html files for Quest
+# Quest - Sign Up Page
 
-Make sure all files are in the same folder
+files for quest Sign up page
