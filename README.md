@@ -1,3 +1,3 @@
-# Quest - Sign Up Page
+# Quest - Login Page
 
-files for quest Sign up page
+files for quest Login page
