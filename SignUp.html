@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+<title></title>
+<style>
+	::-webkit-input-placeholder { 
+		color: #EFEFEF;
+	}
+	
+	Form{
+		Width: 32%; <!--30%,20%-->
+		Height: 600px;
+		Padding; 20px;
+		Margin: auto;
+		Background: none;
+		Font-size:20px;
+		Border: 2px solid #05386B;
+		Border-radius: 7px;
+		position: relative;
+		top: 110px;
+	}
+	
+	Input[type=text]{
+		Width:80% <!--40%-->
+		Padding: 5px;
+		Font-size: 13px;
+		font-family: Menlo;
+		color: #EFEFEF;
+	}
+	
+	</style>
+	
+<link rel="stylesheet" type="text/css" href="newsignup2.css">
+
+</head>
+
+<body style="background-image: linear-gradient(#22FFAD 35%, rgb(13, 117, 79));">
+
+	<p style="text-align: right;">
+		  <a onclick="window.location.href = 'SignUp1.html'" class="button">Join</a>
+		  <a onclick="window.location.href = 'login.html'" class="button">Log In</a>
+	</p>
+	
+	<a onclick="window.location.href = 'quest_home.html'" class="top-logo">
+		<img src="Qlogo1.png" alt="Quest Logo Top" width = 45>
+	</a>
+
+	<hr class="sexy_line" color="#05386B">
+	
+	<p id="Sign-Up">Sign Up</p>
+
+</br>
+</br>
+
+<div>
+	
+            <form align="middle" action="login.php" method="POST">
+			</br>		
+              <input type="text" id="uname" name="username" placeholder="Enter your name" style="color: #FFFFFF" onfocus="this.placeholder = ''">
+		
+</br>
+          
+
+              <input type="text" id="email" name="email" placeholder="Enter your email" style="color: #FFFFFF" onfocus="this.placeholder = ''">
+</br>
+              <input type="text" id="pword" name="password" placeholder="Create a password" style="color: #FFFFFF" onfocus="this.placeholder = ''">
+</br>
+			  <input type="submit" value="Sign Up" size="50">
+			</br>
+            </form>
+
+<div class="square">
+        </div>
+
+
+</body>
+</html>
